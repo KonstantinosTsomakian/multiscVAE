@@ -38,19 +38,19 @@ Overall there is an Encoder and a decoder. The encoder produces a distribution a
 
 To find the optimal parameters of $q(z|x)$ we define the loss function of the full VAE as the:
 
-$$
+\[
 \mathrm{ELBO}
 =
 \mathbb{E}_{q_\phi(z|x)}
-\left[
+[
 \log p_\theta(x|z)
-\right]
+]
 -
 D_{\mathrm{KL}}
-\left(
-q_\phi(z|x)\,\|\,p(z)
-\right)
-$$
+(
+q_\phi(z|x)\|p(z)
+)
+\]
 which essentially is the reconstruction error plus the KL divergence of the $q(z|x)$ from the prior $p(z)$.
     
 ### **<ins> Multimodal single cell data integration**
