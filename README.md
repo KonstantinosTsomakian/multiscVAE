@@ -36,7 +36,7 @@ The solution is that instead of computing the posterior $p(z|x)$ i can aproximat
 
 Overall there is an Encoder and a decoder. The encoder produces a distribution and the decoder produces samples by sampling from $q(z|x)$ that the encoder produced. 
 
-To find the optimal parameters of $q(z|x) we define the loss function of the full VAE as the:
+To find the optimal parameters of $q(z|x)$ we define the loss function of the full VAE as the:
 
 $$
 \mathrm{ELBO}
