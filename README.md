@@ -51,6 +51,7 @@ D_{\mathrm{KL}}
 q_\phi(z|x)\|p(z)
 )
 \]
+
 which essentially is the reconstruction error plus the KL divergence of the $q(z|x)$ from the prior $p(z)$.
     
 ### **<ins> Multimodal single cell data integration**
