@@ -60,3 +60,15 @@ Combining everything together this project considers cell modalities as differen
 * Use different training parameters.
 * Easily alter the models architecture depending on the needs of the data.
 * Input several different modalities.
+
+<p align="center">
+<img src="figures/vae_model.png" width="400"><br>
+<em> Figure 1: The architecture of the model. Note that $Σ$ is a unit matrix with non zero elements only on the diagonal. This forces the learned dimensions of the latent representation to be uncorrelated.</em>
+</p>
+
+### <ins> Example integration of scATAC-seq and scRNA-seq data.
+
+For this example a python notebook is provided that implements the model. The model can be run with inputs either the first $k$ variable features of the proceessed RNA and ATAC data or with the reduced PCA or LSI transformations of the RNA and ATAC data respectivey.
+
+For this example run the [10k Human PBMCs, Multiome v1.0, Chromium X](https://www.10xgenomics.com/datasets/10-k-human-pbm-cs-multiome-v-1-0-chromium-x-1-standard-2-0-0) dataset was used.
+The two modalities were processed following the [muon](https://muon-tutorials.readthedocs.io/en/latest/single-cell-rna-atac/index.html) documentation. 
