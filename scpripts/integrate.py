@@ -10,7 +10,7 @@ import torch.nn.functional as F
 import os
 import pandas as pd
 import sys
-sys.path.append("/home/ktsomakian/histone_modification_network/models")
+# sys.path.append("/home/ktsomakian/histone_modification_network/models")
 import data_preprocessing_functions as prepro
 import matplotlib.lines as mlines
 import muon as mu

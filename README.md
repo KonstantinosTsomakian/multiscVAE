@@ -71,4 +71,6 @@ Combining everything together this project considers cell modalities as differen
 For this example a python notebook is provided that implements the model. The model can be run with inputs either the first $k$ variable features of the proceessed RNA and ATAC data or with the reduced PCA or LSI transformations of the RNA and ATAC data respectivey.
 
 For this example run the [10k Human PBMCs, Multiome v1.0, Chromium X](https://www.10xgenomics.com/datasets/10-k-human-pbm-cs-multiome-v-1-0-chromium-x-1-standard-2-0-0) dataset was used.
-The two modalities were processed following the [muon](https://muon-tutorials.readthedocs.io/en/latest/single-cell-rna-atac/index.html) documentation. 
+The two modalities were processed following the [muon](https://muon-tutorials.readthedocs.io/en/latest/single-cell-rna-atac/index.html) documentation.
+
+**<ins> Results**
