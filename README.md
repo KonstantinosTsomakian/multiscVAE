@@ -73,4 +73,26 @@ For this example a python notebook is provided that implements the model. The mo
 For this example run the [10k Human PBMCs, Multiome v1.0, Chromium X](https://www.10xgenomics.com/datasets/10-k-human-pbm-cs-multiome-v-1-0-chromium-x-1-standard-2-0-0) dataset was used.
 The two modalities were processed following the [muon](https://muon-tutorials.readthedocs.io/en/latest/single-cell-rna-atac/index.html) documentation.
 
-**<ins> Results**
+### <ins> Results
+After we integrate the two modalities we end up with three different representations for each cell. One that represents the UMAP lattent space representation as computed from the RNA modality, one for the ATAC modality and one joint representation.
+**<ins>At this point the model still needs further improvement** as the integration procedure produces clusters that are quite off (pretty bad to be honest :sob:).
+***Figure 1*** demonstrates the training of the model while ***Figure 2*** represents the how the cells in the clusters produces at the joint space map to the two distinct modalites.
+***Figure 3*** demonstrates the maximum overlap of cells between each joint cluster and all clusters from the individual modalities.
+
+
+<p align="center">
+  <img src="figures/model_training.png" width="500"><br>
+  <em>Figure 1: Model training over epochs.</em>
+</p>
+
+
+<p align="center">
+  <img src="figures/umap_joint_embeddings.png" width="500"><br>
+  <em>Figure 2: Mapping of cells from the joint clusters to the latent space produced by each modality.</em>
+</p>
+
+
+<p align="center">
+  <img src="figures/cell_cluster_overlaps_venn.png" width="500"><br>
+  <em>Figure 3: Joint cluster cell overlaps.</em>
+</p>
