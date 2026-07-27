@@ -1,4 +1,4 @@
-### **<ins> Variational Inerence, VAE and Multimodal single cell data integration (Under development)**
+### **<ins> Variational Inference, VAE and Multimodal single cell data integration (Under development)**
 
 Sequencing technologies have shed light into biological sytems like any other technology has before. Current technologies allow profiling of cells transcriptome, epigenome, proteome, chromatin occupancy, regulatory elements and others. At the edge of the field is the profiling of single cells in a multilevel perspective. For example there are technologies that capture both the chromatin accessibility and the transcriptome of a single cell. Although these technologies provide the potential for an even better undestanding of the subject biological system there is also the need for appropriate computational tools that are able to pull out this potential  the technologies provide.
 
